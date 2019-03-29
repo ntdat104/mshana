@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Start Header css */
+.header{
+    width: 100%;
+    background-color: #282828;
+}
+
+.header_content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.inner_content{
+    color: white;
+    float: left;
+}
+
+.inner_content span{
+    margin-left: 5px;
+}
+
+#email{
+    margin-left: 20px;
+}
+
+.header_content ul{
+    float: right;
+    list-style-type: none;
+}
+
+.header_content ul li{
+    display: inline;
+    margin: 0px 10px;
+}
+
+.header_content ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+/* End Header css */
+
+/* Start Header_logo css */
+.header_logo{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0px auto;
+}
+
+.header_logo h1{
+    font-size: 50px;
+}
+
+.header_logo h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.header_logo h2{
+    margin-top: 10px;
+}
+
+.header_logo ul{
+    width: 70%;
+    list-style-type: none;
+    border-top: 1px solid #736F6E;
+    margin: 50px auto 0px auto;
+    padding: 25px 0px;
+}
+
+.header_logo ul li{
+    display: inline;
+    margin: 0px 15px;
+}
+
+.header_logo ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px 0px;
+    color: black;
+    font-weight: bold;
+}
+
+.header_logo ul li a:hover{
+    border-bottom: 2px solid black;
+    transition: 0.3s;
+}
+
+.active{
+    border-bottom: 2px solid black;
+}
+
+#search{
+    font-weight: normal;
+}
+/* End Header_logo css */
+
+/* Start Main css */
+.main{
+    width: 100%;
+    background-image: url("./image/white-waves.png");
+}
+
+.main_content{
+    width: 70%;
+    margin: 0px auto;
+    background-color: burlywood;
+}
+
+.about_me h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about_me p{
+    width: 60%;
+    margin: 0 auto 0 auto;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 20px;
+}
+
+.my_class h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list_1{
+    width: 100%;
+    background-color: #5CB3FF;
+}
+
+.content_list_1{
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.content_list_1 h2{
+    text-align: center;
+}
+
+.content_list_1 p{
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 30px;
+}
+
+.background_list_1{
+    float: right;
+    width: 50%;
+}
+
+.background_list_1 img{
+    width: 100%;
+    height: auto;
+}
+/* End Main css */
+
+/* Start Footer css */
+.footer{
+    width: 100%;
+    background-color: #282828;
+}
+
+.footer_content{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.footer_content h1{
+    color: white;
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+
+.footer_content ul{
+    list-style-type: none;
+}
+
+.footer_content ul li i{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.footer_content ul li span{
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+/* End Footer css */
